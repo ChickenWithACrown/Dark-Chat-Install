@@ -1,0 +1,128 @@
+Starting Dark Chat server setup for 'Dark Chat Support'...
+
+--- Setting up Roles ---
+Attempting to create role: 'Admin'
+Created role: 'Admin' (ID: 1379232933780525067)
+Attempting to create role: 'Moderator'
+Created role: 'Moderator' (ID: 1379232941481263204)
+Attempting to create role: 'Dark Chat User'
+Created role: 'Dark Chat User' (ID: 1379232948972294174)
+Attempting to create role: 'Muted'
+Created role: 'Muted' (ID: 1379232956387688620)
+Attempting to create role: 'Age: 13-17'
+Created role: 'Age: 13-17' (ID: 1379232963878981692)
+Attempting to create role: 'Age: 18-24'
+Created role: 'Age: 18-24' (ID: 1379232970812035075)
+Attempting to create role: 'Age: 25+'
+Created role: 'Age: 25+' (ID: 1379232979011899402)
+Attempting to create role: 'Color: Crimson'
+Created role: 'Color: Crimson' (ID: 1379232985571790974)
+Attempting to create role: 'Color: Sky Blue'
+Created role: 'Color: Sky Blue' (ID: 1379232993939296266)
+Attempting to create role: 'Color: Emerald'
+Created role: 'Color: Emerald' (ID: 1379233001535438888)
+Attempting to create role: 'Color: Gold'
+Created role: 'Color: Gold' (ID: 1379233008720281682)
+Attempting to create role: 'Color: Lavender'
+Created role: 'Color: Lavender' (ID: 1379233016991453307)
+Attempting to create role: 'Color: Onyx'
+Created role: 'Color: Onyx' (ID: 1379233024259915961)
+Attempting to create role: 'Pronouns: He/Him'
+Created role: 'Pronouns: He/Him' (ID: 1379233031424049246)
+Attempting to create role: 'Pronouns: She/Her'
+Created role: 'Pronouns: She/Her' (ID: 1379233039254687885)
+Attempting to create role: 'Pronouns: They/Them'
+Created role: 'Pronouns: They/Them' (ID: 1379233046255108117)
+Attempting to create role: 'Pronouns: Ask'
+Created role: 'Pronouns: Ask' (ID: 1379233053523710093)
+Attempting to create role: 'Pronouns: Other'
+Created role: 'Pronouns: Other' (ID: 1379233060842901645)
+
+--- Setting up Category: ℹ️ WELCOME & INFO ---
+Attempting to create category: 'ℹ️ WELCOME & INFO'
+Created category: 'ℹ WELCOME & INFO' (ID: 1379233068392644729)
+Successfully obtained category: 'ℹ WELCOME & INFO' (ID: 1379233068392644729).
+Processing channels for category 'ℹ WELCOME & INFO'. Current channels in category: 0
+  Attempting to find/create channel: '👋welcome-and-rules' (Type: text) in category 'ℹ WELCOME & INFO' (ID: 1379233068392644729)
+  Creating new channel '👋welcome-and-rules' in category 'ℹ WELCOME & INFO' (ID: 1379233068392644729).
+  Error creating channel '👋welcome-and-rules' in 'ℹ WELCOME & INFO': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: '📢announcements' (Type: news) in category 'ℹ WELCOME & INFO' (ID: 1379233068392644729)
+  Creating new channel '📢announcements' in category 'ℹ WELCOME & INFO' (ID: 1379233068392644729).
+  Error creating channel '📢announcements' in 'ℹ WELCOME & INFO': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: '✨roles-info' (Type: text) in category 'ℹ WELCOME & INFO' (ID: 1379233068392644729)
+  Creating new channel '✨roles-info' in category 'ℹ WELCOME & INFO' (ID: 1379233068392644729).
+  Error creating channel '✨roles-info' in 'ℹ WELCOME & INFO': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: '🔗useful-links' (Type: text) in category 'ℹ WELCOME & INFO' (ID: 1379233068392644729)
+  Creating new channel '🔗useful-links' in category 'ℹ WELCOME & INFO' (ID: 1379233068392644729).
+  Error creating channel '🔗useful-links' in 'ℹ WELCOME & INFO': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+
+--- Setting up Category: 💬 COMMUNITY CHAT ---
+Attempting to create category: '💬 COMMUNITY CHAT'
+Created category: '💬 COMMUNITY CHAT' (ID: 1379233076944834662)
+Successfully obtained category: '💬 COMMUNITY CHAT' (ID: 1379233076944834662).
+Processing channels for category '💬 COMMUNITY CHAT'. Current channels in category: 0
+  Attempting to find/create channel: 'general-chat' (Type: text) in category '💬 COMMUNITY CHAT' (ID: 1379233076944834662)
+  Creating new channel 'general-chat' in category '💬 COMMUNITY CHAT' (ID: 1379233076944834662).
+  Error creating channel 'general-chat' in '💬 COMMUNITY CHAT': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: 'off-topic' (Type: text) in category '💬 COMMUNITY CHAT' (ID: 1379233076944834662)
+  Creating new channel 'off-topic' in category '💬 COMMUNITY CHAT' (ID: 1379233076944834662).
+  Error creating channel 'off-topic' in '💬 COMMUNITY CHAT': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: '💡suggestions' (Type: forum) in category '💬 COMMUNITY CHAT' (ID: 1379233076944834662)
+  Creating new channel '💡suggestions' in category '💬 COMMUNITY CHAT' (ID: 1379233076944834662).
+  Error creating channel '💡suggestions' in '💬 COMMUNITY CHAT': 'CategoryChannel' object has no attribute 'create_forum_channel'. Skipping.
+  Attempting to find/create channel: '🎤voice-general' (Type: voice) in category '💬 COMMUNITY CHAT' (ID: 1379233076944834662)
+  Creating new channel '🎤voice-general' in category '💬 COMMUNITY CHAT' (ID: 1379233076944834662).
+  Error creating channel '🎤voice-general' in '💬 COMMUNITY CHAT': Guild.create_voice_channel() got an unexpected keyword argument 'topic'. Skipping.
+
+--- Setting up Category: 🛠️ DARK CHAT SUPPORT ---
+Attempting to create category: '🛠️ DARK CHAT SUPPORT'
+Created category: '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550)
+Successfully obtained category: '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550).
+Processing channels for category '🛠 DARK CHAT SUPPORT'. Current channels in category: 0
+  Attempting to find/create channel: 'how-to-get-support' (Type: text) in category '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550)
+  Creating new channel 'how-to-get-support' in category '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550).
+  Error creating channel 'how-to-get-support' in '🛠 DARK CHAT SUPPORT': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: '🐛bug-reports' (Type: forum) in category '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550)
+  Creating new channel '🐛bug-reports' in category '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550).
+  Error creating channel '🐛bug-reports' in '🛠 DARK CHAT SUPPORT': 'CategoryChannel' object has no attribute 'create_forum_channel'. Skipping.
+  Attempting to find/create channel: '🔧tech-support' (Type: forum) in category '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550)
+  Creating new channel '🔧tech-support' in category '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550).
+  Error creating channel '🔧tech-support' in '🛠 DARK CHAT SUPPORT': 'CategoryChannel' object has no attribute 'create_forum_channel'. Skipping.
+  Attempting to find/create channel: ' अपील-ban-appeals' (Type: text) in category '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550)
+  Creating new channel ' अपील-ban-appeals' in category '🛠 DARK CHAT SUPPORT' (ID: 1379233085857599550).
+  Error creating channel ' अपील-ban-appeals' in '🛠 DARK CHAT SUPPORT': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+
+--- Setting up Category: 🎨 ✨ CUSTOMIZE PROFILE ---
+Attempting to create category: '🎨 ✨ CUSTOMIZE PROFILE'
+Created category: '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449)
+Successfully obtained category: '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449).
+Processing channels for category '🎨 ✨ CUSTOMIZE PROFILE'. Current channels in category: 0
+  Attempting to find/create channel: '✅how-to-get-roles' (Type: text) in category '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449)
+  Creating new channel '✅how-to-get-roles' in category '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449).
+  Error creating channel '✅how-to-get-roles' in '🎨 ✨ CUSTOMIZE PROFILE': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: '🎂age-select' (Type: text) in category '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449)
+  Creating new channel '🎂age-select' in category '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449).
+  Error creating channel '🎂age-select' in '🎨 ✨ CUSTOMIZE PROFILE': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: '🌈color-select' (Type: text) in category '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449)
+  Creating new channel '🌈color-select' in category '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449).
+  Error creating channel '🌈color-select' in '🎨 ✨ CUSTOMIZE PROFILE': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: '🗣️pronoun-select' (Type: text) in category '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449)
+  Creating new channel '🗣️pronoun-select' in category '🎨 ✨ CUSTOMIZE PROFILE' (ID: 1379233095471075449).
+  Error creating channel '🗣️pronoun-select' in '🎨 ✨ CUSTOMIZE PROFILE': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+
+--- Setting up Category: 🔒 STAFF AREA ---
+Attempting to create category: '🔒 STAFF AREA'
+Created category: '🔒 STAFF AREA' (ID: 1379233103486255111)
+Successfully obtained category: '🔒 STAFF AREA' (ID: 1379233103486255111).
+Processing channels for category '🔒 STAFF AREA'. Current channels in category: 0
+  Attempting to find/create channel: 'staff-chat' (Type: text) in category '🔒 STAFF AREA' (ID: 1379233103486255111)
+  Creating new channel 'staff-chat' in category '🔒 STAFF AREA' (ID: 1379233103486255111).
+  Error creating channel 'staff-chat' in '🔒 STAFF AREA': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: 'mod-logs' (Type: text) in category '🔒 STAFF AREA' (ID: 1379233103486255111)
+  Creating new channel 'mod-logs' in category '🔒 STAFF AREA' (ID: 1379233103486255111).
+  Error creating channel 'mod-logs' in '🔒 STAFF AREA': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+  Attempting to find/create channel: 'admin-chat' (Type: text) in category '🔒 STAFF AREA' (ID: 1379233103486255111)
+  Creating new channel 'admin-chat' in category '🔒 STAFF AREA' (ID: 1379233103486255111).
+  Error creating channel 'admin-chat' in '🔒 STAFF AREA': Guild.create_text_channel() got an unexpected keyword argument 'type'. Skipping.
+
+Server setup process complete.
